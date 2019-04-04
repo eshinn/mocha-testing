@@ -1,0 +1,16 @@
+{
+  "presets": ["@babel/preset-env"],
+  "env": {
+    "development": {
+      "plugins": [
+        ["@babel/plugin-transform-spread"],
+        ["babel-plugin-rewire"]
+      ]
+    },
+    "production": {
+      "plugins": [
+        ["@babel/plugin-transform-spread"]
+      ]
+    }
+  }
+}
